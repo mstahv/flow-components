@@ -256,7 +256,7 @@ public class RadioButtonGroup<T>
         Objects.requireNonNull(itemLabelGenerator,
                 "The item label generator can not be null");
         this.itemLabelGenerator = itemLabelGenerator;
-        refreshButtons();
+        setRenderer(new TextRenderer<>(itemLabelGenerator));
     }
 
     /**
