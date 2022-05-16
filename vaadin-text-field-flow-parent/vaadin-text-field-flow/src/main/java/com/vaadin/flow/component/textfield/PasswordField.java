@@ -37,7 +37,7 @@ public class PasswordField
         extends GeneratedVaadinPasswordField<PasswordField, String> implements
         HasSize, HasValidation, HasValueChangeMode, HasPrefixAndSuffix,
         InputNotifier, KeyNotifier, CompositionNotifier, HasAutocomplete,
-        HasAutocapitalize, HasAutocorrect, HasHelper, HasLabel {
+        HasAutocapitalize, HasAutocorrect, HasHelper, HasLabel, HasSelection {
     private ValueChangeMode currentMode;
 
     private boolean isConnectorAttached;

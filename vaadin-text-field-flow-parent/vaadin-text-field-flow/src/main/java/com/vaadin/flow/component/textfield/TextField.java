@@ -36,7 +36,7 @@ public class TextField extends GeneratedVaadinTextField<TextField, String>
         implements HasSize, HasValidation, HasValueChangeMode,
         HasPrefixAndSuffix, InputNotifier, KeyNotifier, CompositionNotifier,
         HasAutocomplete, HasAutocapitalize, HasAutocorrect, HasHelper,
-        HasLabel {
+        HasLabel, HasSelection {
     private ValueChangeMode currentMode;
 
     private boolean isConnectorAttached;

@@ -58,7 +58,7 @@ public class BigDecimalField
         extends GeneratedVaadinTextField<BigDecimalField, BigDecimal> implements
         HasSize, HasValidation, HasValueChangeMode, HasPrefixAndSuffix,
         InputNotifier, KeyNotifier, CompositionNotifier, HasAutocomplete,
-        HasAutocapitalize, HasAutocorrect, HasHelper, HasLabel {
+        HasAutocapitalize, HasAutocorrect, HasHelper, HasLabel, HasSelection {
     private ValueChangeMode currentMode;
 
     private boolean isConnectorAttached;
